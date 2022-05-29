@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CookBook</string>
+    <string name="start">Start</string>
+    <string name="dish_name">Dish Name</string>
+    <string name="category_name">Category name</string>
+    <string name="all_recipes">All Recipes</string>
+    <string name="_30_min">30 min</string>
+    <string name="_247_cals">247 cals</string>
+    <string name="_3_persons">3 persons</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="instructions">Instructions</string>
+    <string name="youtube">YouTube</string>
+</resources>
