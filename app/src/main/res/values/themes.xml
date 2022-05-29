@@ -2,9 +2,10 @@
     <!-- Base application theme. -->
     <style name="Theme.CookBook" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimary">@color/sky_blue</item>
         <item name="colorPrimaryDark">@color/white</item>
         <item name="colorAccent">@color/brown</item>
+        <item name="android:statusBarColor" tools:targetApi="l">#33000000</item>
     </style>
     <style name="ThemeOverlay.Search" parent="Theme.CookBook">
         <item name="android:editTextColor">@color/black</item>

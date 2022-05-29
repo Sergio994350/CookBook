@@ -17,7 +17,7 @@
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/_250sdp"
-            app:contentScrim="@color/yellow"
+            app:contentScrim="@color/sky_blue"
             app:expandedTitleMarginEnd="@dimen/_72sdp"
             app:expandedTitleMarginStart="@dimen/_16sdp"
             app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed">
@@ -53,15 +53,15 @@
                 android:paddingBottom="@dimen/_8sdp"
                 android:src="@drawable/ic_back" />
 
-            <ImageButton
-                android:id="@+id/imgToolbarBtnFav"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:layout_margin="@dimen/_10sdp"
-                android:background="@drawable/btn_bg2"
-                android:padding="@dimen/_8sdp"
-                android:src="@drawable/ic_fav_unfill" />
+<!--            <ImageButton-->
+<!--                android:id="@+id/imgToolbarBtnFav"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="end"-->
+<!--                android:layout_margin="@dimen/_10sdp"-->
+<!--                android:background="@drawable/btn_bg2"-->
+<!--                android:padding="@dimen/_8sdp"-->
+<!--                android:src="@drawable/ic_fav_unfill" />-->
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
