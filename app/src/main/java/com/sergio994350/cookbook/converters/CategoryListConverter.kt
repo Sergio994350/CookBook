@@ -12,8 +12,7 @@ class CategoryListConverter {
             (null)
         } else {
             val gson = Gson()
-            val type = object : TypeToken<CategoryItems>() {
-            }.type
+            val type = object : TypeToken<CategoryItems>() {}.type
             gson.toJson(category, type)
         }
     }
@@ -24,8 +23,7 @@ class CategoryListConverter {
             (null)
         } else {
             val gson = Gson()
-            val type = object : TypeToken<CategoryItems>() {
-            }.type
+            val type = object : TypeToken<CategoryItems>() {}.type
             gson.fromJson(categoryString, type)
         }
     }

@@ -16,12 +16,12 @@ import retrofit2.Response
 
 class DetailActivity : BaseActivity() {
 
-    var youtubeLink = ""
+    var youtubeLink = EMPTY
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
 
-        var id = intent.getStringExtra("id")
+        val id = intent.getStringExtra("id")
 
         getSpecificItem(id!!)
 
@@ -42,8 +42,7 @@ class DetailActivity : BaseActivity() {
         val call = service.getSpecificItem(id)
         call.enqueue(object : Callback<MealResponse> {
             override fun onFailure(call: Call<MealResponse>, t: Throwable) {
-
-                Toast.makeText(this@DetailActivity, "Something is wrong", Toast.LENGTH_SHORT)
+                Toast.makeText(this@DetailActivity, "Something wrong", Toast.LENGTH_SHORT)
                     .show()
             }
 
@@ -53,10 +52,8 @@ class DetailActivity : BaseActivity() {
             ) {
                 Glide.with(this@DetailActivity).load(response.body()!!.mealsEntity[0].strmealthumb)
                     .into(imgItem)
-
                 tvCategory.text = response.body()!!.mealsEntity[0].strmeal
-
-                var ingredient =
+                val ingredient =
                     "${response.body()!!.mealsEntity[0].stringredient1}      ${response.body()!!.mealsEntity[0].strmeasure1}\n" +
                             "${response.body()!!.mealsEntity[0].stringredient2}      ${response.body()!!.mealsEntity[0].strmeasure2}\n" +
                             "${response.body()!!.mealsEntity[0].stringredient3}      ${response.body()!!.mealsEntity[0].strmeasure3}\n" +

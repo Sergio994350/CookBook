@@ -1,6 +1,6 @@
 package com.sergio994350.cookbook.retrofitclient
 
-import com.sergio994350.cookbook.Constants.Companion.BASE_URL
+import com.sergio994350.cookbook.BASE_URL
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

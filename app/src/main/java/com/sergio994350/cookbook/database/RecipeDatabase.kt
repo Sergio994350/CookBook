@@ -5,6 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
+import com.sergio994350.cookbook.DB_NAME
 import com.sergio994350.cookbook.converters.CategoryListConverter
 import com.sergio994350.cookbook.converters.MealListConverter
 import com.sergio994350.cookbook.dao.RecipeDao
@@ -24,7 +25,6 @@ import com.sergio994350.cookbook.entity.MealsItems
 abstract class RecipeDatabase : RoomDatabase() {
 
     companion object {
-
         var recipesDatabase: RecipeDatabase? = null
 
         @Synchronized
@@ -33,7 +33,7 @@ abstract class RecipeDatabase : RoomDatabase() {
                 recipesDatabase = Room.databaseBuilder(
                     context,
                     RecipeDatabase::class.java,
-                    "recipe.db"
+                    DB_NAME
                 ).build()
             }
             return recipesDatabase!!

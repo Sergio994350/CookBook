@@ -12,9 +12,7 @@ class MealListConverter {
             (null)
         } else {
             val gson = Gson()
-            val type = object : TypeToken<MealsItems>() {
-
-            }.type
+            val type = object : TypeToken<MealsItems>() {}.type
             gson.toJson(category, type)
         }
     }
@@ -25,9 +23,7 @@ class MealListConverter {
             (null)
         } else {
             val gson = Gson()
-            val type = object : TypeToken<MealsItems>() {
-
-            }.type
+            val type = object : TypeToken<MealsItems>() {}.type
             gson.fromJson(categoryString, type)
         }
     }

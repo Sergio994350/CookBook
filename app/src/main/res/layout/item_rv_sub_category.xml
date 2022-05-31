@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/dish_name"
-            android:textSize="@dimen/_15ssp"
+            android:textSize="@dimen/_17ssp"
             android:textColor="@color/black"
             android:maxLines="2"
             android:fontFamily="@font/handlee"

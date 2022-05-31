@@ -134,7 +134,8 @@
                                 android:text="@string/_30_min"
                                 android:textColor="@color/hintTextColor"
                                 android:textSize="@dimen/_10ssp"
-                                android:textStyle="bold" />
+                                android:textStyle="bold"
+                                tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -163,7 +164,8 @@
                                 android:text="@string/_247_cals"
                                 android:textColor="@color/hintTextColor"
                                 android:textSize="@dimen/_10ssp"
-                                android:textStyle="bold" />
+                                android:textStyle="bold"
+                                tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -190,7 +192,8 @@
                                 android:text="@string/_3_persons"
                                 android:textColor="@color/hintTextColor"
                                 android:textSize="@dimen/_10ssp"
-                                android:textStyle="bold" />
+                                android:textStyle="bold"
+                                tools:ignore="RtlSymmetry" />
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
@@ -203,7 +206,8 @@
                 android:paddingStart="@dimen/_10sdp"
                 android:text="@string/ingredients"
                 android:textColor="@color/black"
-                android:textSize="@dimen/_15ssp" />
+                android:textSize="@dimen/_15ssp"
+                tools:ignore="RtlSymmetry" />
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -227,7 +231,8 @@
                         android:paddingBottom="@dimen/_10sdp"
                         android:textColor="@color/hintTextColor"
                         android:textSize="@dimen/_10ssp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        tools:ignore="RtlSymmetry" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -239,7 +244,8 @@
                 android:paddingStart="@dimen/_10sdp"
                 android:text="@string/instructions"
                 android:textColor="@color/black"
-                android:textSize="@dimen/_15ssp" />
+                android:textSize="@dimen/_15ssp"
+                tools:ignore="RtlSymmetry" />
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -264,7 +270,8 @@
                         android:paddingBottom="@dimen/_10sdp"
                         android:textColor="@color/hintTextColor"
                         android:textSize="@dimen/_10ssp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        tools:ignore="RtlSymmetry" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
